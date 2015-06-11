@@ -1,0 +1,12 @@
+package ba.bitcamp.arrays;
+
+public class Final {
+
+	
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}
