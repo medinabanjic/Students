@@ -1,6 +1,19 @@
 package ba.bitcamp.arrays;
 
 public class MethodsMedina {
+	
+	
+	/**
+	 * This method makes files.
+	 * @param names = string array with file names
+	 */
+	public static void studentFile(String[] names) {
+
+		for (int i = 0; i < names.length; i++) {
+			String name = names[i] + ".grd";
+			TextIO.writeFile(name);
+		}
+	}
 
 	/**
 	 * This method reads names of students from file, discard commas, blank
